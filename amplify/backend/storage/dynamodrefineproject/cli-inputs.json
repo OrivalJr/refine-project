@@ -1,0 +1,14 @@
+{
+  "resourceName": "dynamodrefineproject",
+  "tableName": "dynamodrefineproject",
+  "partitionKey": {
+    "fieldName": "ID",
+    "fieldType": "number"
+  },
+  "sortKey": {
+    "fieldName": "nome",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

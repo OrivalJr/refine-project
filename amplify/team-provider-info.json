@@ -1,0 +1,33 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-refineproject-dev-321af-authRole",
+      "UnauthRoleArn": "arn:aws:iam::944472297482:role/amplify-refineproject-dev-321af-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::944472297482:role/amplify-refineproject-dev-321af-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-refineproject-dev-321af-deployment",
+      "UnauthRoleName": "amplify-refineproject-dev-321af-unauthRole",
+      "StackName": "amplify-refineproject-dev-321af",
+      "StackId": "arn:aws:cloudformation:us-east-2:944472297482:stack/amplify-refineproject-dev-321af/2c13d910-b64d-11ef-917b-0ac160df1faf",
+      "AmplifyAppId": "d1gnvuu4l5aowz",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-refineproject-dev-321af-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "lbdarefineproject": {
+          "deploymentBucketName": "amplify-refineproject-dev-321af-deployment",
+          "s3Key": "amplify-builds/lbdarefineproject-354c52316a702b666450-build.zip"
+        }
+      },
+      "auth": {
+        "refineproject": {}
+      },
+      "storage": {
+        "dynamodrefineproject": {}
+      },
+      "api": {
+        "apirefineproject": {}
+      }
+    }
+  }
+}
